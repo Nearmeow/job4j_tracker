@@ -5,7 +5,7 @@ jdk:
 
 env:
   global:
-    - CODECOV_TOKEN=""
+    - CODECOV_TOKEN="d13c64ca-0b76-44ef-8dcf-08b1d8418290"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
@@ -13,6 +13,6 @@ after_success:
 notifications:
   email:
     recipients:
-      - your_mail@mail.ru
+      - ronios@yandex.ru
     on_success: never # default: change
     on_failure: always # default: always
