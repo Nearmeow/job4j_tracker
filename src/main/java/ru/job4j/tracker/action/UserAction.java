@@ -1,9 +1,9 @@
 package ru.job4j.tracker.action;
 
+import ru.job4j.tracker.store.Store;
 import ru.job4j.tracker.input.Input;
-import ru.job4j.tracker.store.MemTracker;
 
 public interface UserAction {
     String name();
-    boolean execute(Input input, MemTracker tracker);
+    boolean execute(Input input, Store tracker);
 }
